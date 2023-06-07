@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ClientApp
+
+server:
+  port: 8086
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+hello:
+  rel: Satyam from Server 
